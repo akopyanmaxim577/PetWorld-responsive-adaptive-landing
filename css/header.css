@@ -1,0 +1,138 @@
+.container{
+    padding: 0px 15px;
+    max-width: 1080px;
+    margin: 0 auto;
+    box-sizing: unset;
+}
+
+.sign{
+    color:#2D2D2D;
+}
+
+.login{
+    padding: 11px 52px;
+    background-color: #3366FF;
+    color: white;
+    border-radius: 10px;
+}
+
+.nav{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head_buttons{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+
+.login,
+.sign{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+
+.banner{
+    background-color: #F7F5FD;
+    height: auto;
+}
+.banner_title{
+    font-weight: 600;
+    font-size: 82px;
+    line-height: 90px;
+    color: #2D2D2D;
+    max-width: 423.79px;
+    margin-bottom: 26px;
+}
+
+.banner_text{
+    max-width: 466px;
+    margin-top: 93px;
+}
+
+
+.banner_par{
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D2D2D;
+    opacity: 0.5;
+    margin-bottom: 82px;
+}
+
+.banner_button{
+    padding: 18px 50px;
+    background-color: #F8D57E;
+    border-radius: 10px;
+    color:  #2D2D2D;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.banner_content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.banner_photo{
+    padding-top: 93px;
+    padding-bottom: 70px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+@media(max-width:944px){
+    .banner_content{
+        flex-direction: column;
+    }
+    .banner_photo{
+        margin: 0 auto;
+    }
+    .banner_text,
+    .banner_title{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .banner_title{
+        padding-top: 60px;
+    }
+    .banner_par{
+        margin-top: 30px;
+        margin-bottom: 52px;
+    }
+}
+
+
+@media(max-width:517px){
+    .head_buttons{
+        display: none;
+    }
+    .nav{
+        margin-top: 22.5px;
+    }
+
+    
+}
+
+@media(max-width:477px){
+    .banner_title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .banner_text{
+        max-width: 350px;
+    }
+    .banner_par{
+        max-width: 320px;
+    }
+
+}
+

@@ -1,0 +1,35 @@
+.card{
+    width: 230px;
+    height: 268px;
+    text-align: center;
+}
+
+.card img{
+    margin-bottom: 40px;
+}
+
+.card_title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D2D2D;
+    margin-bottom: 15px;
+}
+
+.card_paragraph{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #2D2D2D;
+    opacity: 0.5;
+}
+
+.cards_content{
+    margin-top: 91px;
+    margin-bottom: 118px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 53px;
+}
